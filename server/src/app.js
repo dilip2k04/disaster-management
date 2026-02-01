@@ -10,7 +10,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://your-frontend.onrender.com"
+    "https://disaster-management-1-gwmm.onrender.com"
   ],
   credentials: true
 }));
