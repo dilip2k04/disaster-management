@@ -8,9 +8,13 @@ const app = express();
 
 /* ✅ ONLY THIS — nothing else */
 app.use(cors({
-  origin: "http://localhost:5173", // Vite
+  origin: [
+    "http://localhost:5173",
+    "https://your-frontend.onrender.com"
+  ],
   credentials: true
 }));
+
 
 app.use(express.json());
 

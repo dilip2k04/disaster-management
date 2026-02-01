@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://disaster-management-7e5w.onrender.com/api",
   withCredentials: false   // ⭐⭐⭐ VERY IMPORTANT
 });
 
